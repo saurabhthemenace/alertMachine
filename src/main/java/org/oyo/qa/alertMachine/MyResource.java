@@ -41,6 +41,7 @@ public class MyResource {
             while (is.read() != -1) {}
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Test Pull Request");
         }
     	return "Info: "+ number + " and new " + message;
     }
